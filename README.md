@@ -1,84 +1,138 @@
 # Hi, I'm Youssef Alaraby 👋
 
-**Data Scientist & Analyst** | Computer Engineering Graduate @ Mansoura University, Egypt
+### Aspiring Data Engineer | Computer Engineering Graduate
 
-I'm passionate about turning raw data into actionable insights. My work spans machine learning, recommendation systems, computer vision, and data visualization — with a growing interest in **football data science** and sports analytics.
+I'm a Computer Engineering graduate from Mansoura University passionate about building reliable data pipelines, transforming raw data into analytics-ready datasets, and designing data platforms that support business decisions.
+
+My journey started with Python, SQL, and data analytics, then expanded into data engineering concepts such as data warehousing, ETL/ELT pipelines, distributed data processing, lakehouse architecture, and workflow orchestration.
+
+I enjoy learning by building end-to-end projects, understanding the engineering decisions behind each technology, and continuously improving my skills through hands-on practice.
+
+- 🎓 **Education:** B.Sc. in Computer Engineering — Mansoura University
+- 📍 **Location:** Egypt
+- 💻 **Focus:** Data Engineering, Data Warehousing, Lakehouse Architecture, ETL/ELT
+- 🏆 **Achievement:** 1st place in an IEEE internal Data Science competition
+- 📫 **Email:** youssefalaraby531@gmail.com
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-**Languages & Querying**
-`Python` `SQL`
+### Programming & Query Languages
+- **Python** — data processing, scripting, and pipeline development
+- **SQL** — querying, joins, aggregations, transformations, and analytical queries
+- **PySpark** — distributed data processing and DataFrame transformations
 
-**Data Analysis & Visualization**
-`Pandas` `NumPy` `Seaborn` `Matplotlib` `Power BI` `Tableau` `Excel`
+### Data Engineering & Big Data
+- ETL and ELT pipeline concepts
+- Batch processing and streaming fundamentals
+- Incremental data loading and upserts
+- Data cleaning, deduplication, and schema handling
+- CDC and Slowly Changing Dimensions concepts
+- Apache Spark architecture, lazy evaluation, transformations, actions, shuffles, and partitioning
+- Medallion Architecture: Bronze, Silver, and Gold
+- Lakehouse architecture and Delta Lake
 
-**Machine Learning & AI**
-`scikit-learn` `PyTorch` `torchvision` `Surprise` `NLP`
+### Data Platforms & Tools
+- **Databricks** — notebooks, Unity Catalog, Volumes, Delta tables, Auto Loader, and lakehouse workflows
+- **dbt** — SQL-based transformations, models, tests, sources, macros, seeds, snapshots, and incremental models
+- **Apache Airflow** — DAGs, task dependencies, scheduling, and workflow orchestration
+- **SQL Server** — relational databases and data warehouse development
+- **Docker** — containerization fundamentals and local development environments
+- **Git & GitHub** — version control and project documentation
 
-**Deployment & Tools**
-`Flask` `Streamlit` `FastAPI` `Git`
+### Data Analytics & Machine Learning
+- **Power BI** — dashboards, data visualization, and reporting
+- **Excel** — data analysis and reporting
+- **Pandas, NumPy, Matplotlib, Seaborn**
+- **Scikit-learn** — machine learning and recommendation systems
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔗 Recommendation System Platform *(Graduation Project)*
-A dual-model recommendation system that matches investors with relevant companies.
-- **Content-Based Filtering** using cosine similarity on company profiles
-- **Collaborative Filtering** using matrix factorization on investor interactions
-- Built with `Python`, `scikit-learn`, `Pandas`, `Surprise`
-- Deployed as an interactive web app with `Flask`
-- Includes a **Power BI dashboard** for interaction trend visualization
+### 1. ShopStream — Databricks Lakehouse
+
+**Technologies:** Databricks, PySpark, SQL, Delta Lake, Unity Catalog, Auto Loader
+
+An e-commerce data engineering project designed to process historical transactional data alongside incoming order events and organize them into a medallion lakehouse architecture.
+
+**What I worked on and learned:**
+- Ingesting historical CSV data into the Bronze layer.
+- Working with JSON order events and streaming ingestion concepts.
+- Transforming raw data into cleaner, more consistent Silver tables.
+- Handling duplicate records, data types, timestamps, and inconsistent source fields.
+- Implementing incremental processing and Delta Lake merge/upsert patterns.
+- Designing Gold-level analytical datasets for business reporting.
+- Exploring Auto Loader, checkpoints, and streaming pipeline behavior.
+- Preparing metrics for revenue, product categories, customer behavior, and sales trends.
+
+
+
+### 2. SQL Data Warehouse Project
+
+**Technologies:** SQL Server, SQL, Data Warehousing, ETL, Data Modeling
+
+A SQL Server data warehouse project focused on building a structured foundation for analytical queries and reporting.
+
+**Key concepts and experience:**
+- Understanding data warehouse architecture and ETL workflows.
+- Ingesting and transforming source data into analytical tables.
+- Applying SQL for data cleaning, integration, and business transformations.
+- Exploring fact and dimension tables and dimensional modeling.
+- Organizing data for reporting and business analysis.
+- Practicing data warehouse development and documenting the pipeline.
+
+
+
+### 3. Investor–Company Recommendation Platform — Graduation Project
+
+**Technologies:** Python, Pandas, Scikit-learn, FastAPI, Power BI
+
+A recommendation platform designed to connect investors with companies and projects based on their interests and relevant characteristics.
+
+**My work and key concepts:**
+- Developing a hybrid recommendation approach combining content-based filtering and collaborative filtering.
+- Applying cosine similarity to measure item similarity.
+- Exploring nearest-neighbor techniques for recommendations.
+- Addressing the cold-start problem with content-based recommendations.
+- Considering user interactions such as views, saves, comments, ratings, and funding activity.
+- Building a FastAPI backend to expose recommendation functionality.
+- Using Power BI for analytical reporting and visualization.
+
 
 ---
 
-### 🧠 Brain Stroke Detection — Computer Vision
-A PyTorch CNN that classifies brain MRI images as *Normal* or *Stroke*.
-- Applied transfer learning, data augmentation, and image preprocessing
-- Built with `PyTorch` and `torchvision`
+
+## 🏆 Training & Achievements
+
+- **ITI — AI & Machine Learning Summer Training (2024):** completed a one-month training program focused on AI and machine learning.
+- **IEEE Student Branch, Mansoura University — Data Science Track (2023–2024):** participated in technical learning and data science activities.
+- **1st Place — IEEE Internal Data Science Competition:** analyzed WUZZUF job-market data as part of a team.
+- **ICPC Student Branch — Problem-Solving Training (2022):** participated in competitive programming and algorithmic problem-solving training.
 
 ---
 
-### ⚖️ Obesity Classification & Deployment
-A team project to detect obesity from health data.
-- Led the EDA and feature engineering phases
-- Deployed as a web and mobile application using `Flask`
+## 🎓 Education
+
+**Bachelor of Science in Computer Engineering**  
+Mansoura University | 2020–2025
 
 ---
 
-### ⚽ Fantasy Premier League Data Analysis
-An end-to-end data analysis project on EPL 2023/24 player data.
-- Analyzed performance trends, form indicators, and value-for-points metrics
-- Built an interactive `Streamlit` dashboard for fantasy team decision support
+## 🌍 Languages
+
+- Arabic — Native
+- English — B2
 
 ---
 
-## 🏆 Achievements
+## 🤝 Let's Connect
 
-- 🥇 **1st Place** — IEEE Internal Data Science Competition *(WUZZUF Job Market Data)*
-- 📜 **Data Analysis Challenger** — Udacity (2022)
-- 🤖 **AI/ML Summer Training** — Information Technology Institute (ITI, 2024)
-- 💡 **IEEE Student Branch** — Data Science Track Member (2023–2024)
-- 🧩 **ICPC Student Branch** — Problem Solving Training (2022)
+I'm interested in connecting with data engineers, learning from real-world engineering practices, contributing to projects, and exploring opportunities to grow in the data engineering field.
 
----
+- 📧 Email: [youssefalaraby531@gmail.com](mailto:youssefalaraby531@gmail.com)
+- 💼 LinkedIn: [www.linkedin.com/in/youssef-alaraby-6a207b227](https://www.linkedin.com/)
 
-## 🌍 Interests
 
-- ⚽ Football Data Science & Sports Analytics
-- 📊 Business Intelligence & Dashboarding
-- 🤖 Machine Learning & Deep Learning
-- 🏗️ Data Engineering & Pipeline Design
-
----
-
-## 📬 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/youssef-alaraby-6a207b227)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssefalaraby531@gmail.com)
-
----
-
-*"Without data, you're just another person with an opinion."* — W. Edwards Deming
+*Always learning, building, and improving — one data pipeline at a time.* 🚀
